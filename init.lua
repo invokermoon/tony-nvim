@@ -8,6 +8,7 @@ require "user.utils"
 require "user.conf"
 require "user.lsp"
 require "user.dap"
+require "user.tags"
 
 -- This code will ensure there is no err: packer_plgins table is nil
 local util = require('packer/util')

@@ -269,6 +269,8 @@ local function toolPlugins(use)
 
     -- use "folke/trouble.nvim" -- about diagnostic, no useless, it can be instead by lsp+vim.diag
     -- use "kosayoda/nvim-lightbulb" -- code issues tips, no useless, and conflict with lsp+vim.diag
+    --
+    use 'vim-scripts/gtags.vim'
 end
 
 
